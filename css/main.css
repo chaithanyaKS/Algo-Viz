@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body,
+canvas {
+  width: 100%;
+  height: 100%;
+}
+canvas {
+  height: 91vh;
+  border-radius: 4px;
+}
+body {
+  padding: 0.5rem;
+}
+
+canvas {
+  background-color: #1e293b;
+}
+header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+header > * {
+  margin-right: 1rem;
+}
